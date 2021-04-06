@@ -2,12 +2,31 @@
   background-color: lightgray;
   height: 300px;
   width: 600px;
+}
+
+.centerThis {
   margin-left: auto;
   margin-right: auto;
+}
+
+.movementDiv {
+  width: 300px;
 }
 
 .box {
   height: 50px;
   width: 50px;
   float: left;
+}
+
+.blackBox {
+  background-color: black;
+}
+
+.whiteBox {
+  background-color: white;
+}
+
+.player {
+  background-color: green;
 }

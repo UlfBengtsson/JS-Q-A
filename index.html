@@ -6,7 +6,12 @@
     <link rel="stylesheet" href="site.css" />
   </head>
   <body>
-    <div id="board"></div>
+    <div class="centerThis movementDiv">
+      <p>Move green box</p>
+      <button onclick="move(-1)">left</button>
+      <button onclick="move(1)">right</button>
+    </div>
+    <div id="board" class="centerThis"></div>
 
     <script src="myJS.js"></script>
   </body>
